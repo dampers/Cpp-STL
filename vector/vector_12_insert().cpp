@@ -18,6 +18,7 @@ int main()
 	//v.insert(iter, value) inserts value before iterator pos.
 	// returns iterator pointing to the inserted value.
 	//it = v.insert(it, 5);
+	// Time complexity is linear. O(N)
 	v.insert(it, 5);
 	v.insert(v.begin()+3, 5);
 	cout<<"After insert : ";
