@@ -14,8 +14,8 @@ int main()
 	// vector<type> name(size, init_value);
 	vector<int> v3(5, 0); // size = 5, init_value = 0.
 
-	// vector<type> name = {elements...};
-	vector<int> v4 = {10, 20, 30, 40};
+	// vector<type> name {elements...};
+	vector<int> v4{10, 20, 30, 40};
 
 	// vector<type> name = vector<type>();
 	vector<int> v5 = vector<int>(); // size = 0.
