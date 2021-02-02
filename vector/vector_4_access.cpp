@@ -9,6 +9,8 @@ int main()
 		cout << v[i] <<' ';
 	cout<<endl;
 
+	// can access by v.at(index) or v[index].
+	// v.at(index) checks validation of index.
 	v.at(2) = 100;
 	v[3] = 44;
 

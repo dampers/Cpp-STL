@@ -16,10 +16,10 @@ int main()
 
 	cout << "v\'s size : " <<v.size() << endl;
 
-	// v.front() returns vector's first element.
+	// v.front() returns the first element of vector.
 	cout << "v\'s first element : " << v.front() << endl;
 
-	// v.back() returns vector's last element.
+	// v.back() returns the last element of vector.
 	cout << "v\'s last element : " << v.back() << endl;
 
 	return 0;

@@ -7,13 +7,13 @@ int main()
 {
 	vector<int> v = {10, 20, 30, 40};
 
-	// In vector<int> v.begin()'s return type is vector<int>::iterator.
-	// v.begin() returns vector's first address.
+	// The return type of v.begin() is vector<int>::iterator.
+	// v.begin() returns the first address of vector.
 	vector<int>::iterator it = v.begin();
 	cout << *it << endl;
 
-	// In vector<int> v.end()'s return type is vector<int>::iterator.
-	// v.end() returns vector's last element's NEXT ADDRESS.
+	// The return type of v.end() is vector<int>::iterator.
+	// v.end() returns THE NEXT ADDRESS of the last element of vector.
 	vector<int>::iterator back_it = v.end();
 
 	cout << *back_it << endl; // points end address.

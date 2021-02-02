@@ -16,7 +16,7 @@ int main()
 
 	// Resizes the container to contain count elements.
 	// v.resize(new_size, value);
-	// value - 	the value to initialize the new elements with.
+	// value -> the value to initialize the new elements with.
 	v.resize(7, -1);
 	cout<<"After resize up : ";
 	print_container(v);
